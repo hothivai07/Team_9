@@ -1,0 +1,153 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+/* Phần Our services */
+.menu {
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+/* Tiêu đề */
+.menu h1 {
+    font-size: 24px;
+    margin: 0 0 28px 0;
+    text-decoration: none;
+    
+}
+.menu hr {
+    width: 50px;
+    border: none;
+    border-top: 2px solid black;
+    margin: 28px auto 25px auto;
+}
+
+
+/* Đoạn mô tả */
+.de {
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 45px;
+}
+
+
+/* 6 ô dịch vụ */
+.container {
+    width: 647px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 21px 20px;
+}
+
+
+/* Từng ô */
+.content {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+    width: 202px;
+    height: 204px;
+
+    background-color: white;
+
+    text-align: left;
+
+    padding: 25px 22px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+
+/* Icon */
+.content img {
+    order: 1;
+    width: 55px;
+    height: 55px;
+
+    object-fit: contain;
+
+    margin-bottom: 12px;
+}
+
+
+/* Tên dịch vụ */
+.content h3 {
+    order: 2;
+    font-size: 14px;
+
+    margin: 0 0 10px 0;
+}
+
+
+/* Nội dung */
+.content p {
+    order: 3;
+    color: #999;
+
+    font-size: 11px;
+
+    line-height: 18px;
+
+    margin: 0;
+}
+
+
+/* Nút Learn more */
+button {
+    display: block;
+    width: 115px;
+    height: 35px;
+    margin: 40px auto 0 auto;
+
+    border: 1px solid #4da3ff;
+    border-radius: 20px;
+    background-color: white;
+    color: #4da3ff;
+}
+footer {
+    background-color: rgb(47, 47, 230);
+    display: grid;
+    color: white;
+    padding: 60px 80px;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+footer h2 {
+    color: white;
+}
+footer h3 {
+    color: white;
+}
+footer p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+.colum{
+    width: auto;
+}
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo-title h2 {
+    margin: 0;
+}
